@@ -1,0 +1,4 @@
+<additional>
+	<edgeData id="Det_Emission" type="emissions" freq="900" begin="0" end="57600" file="emission.xml"/>
+	<edgeData id="Det_Measures" freq="900" begin="0" end="57600" file="measures.xml"/>
+</additional>

@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+   <tlLogic id="KP1" type="static" programID="Fruh" offset="0">
+	 <phase duration="1" state="rrrrryyyyyyrrrrrryyyyy"/>
+	 <phase duration="7" state="rrrrrrrrrrrrrrrrrrrrrr"/>
+	 <phase duration="2" state="uuuuurrrrrruuuuuurrrrr"/>
+	 <phase duration="36" state="GGGGgrrrrrrGGGGGgrrrrr"/>
+	 <phase duration="3" state="GGGGgrrrrrryyyyyyrrrrr"/>
+	 <phase duration="8" state="GGGGgrrrrrrrrrrrrrrrrr"/>
+	 <phase duration="3" state="yyyyyrrrrrrrrrrrrrrrrr"/>
+	 <phase duration="9" state="rrrrrrrrrrrrrrrrrrrrrr"/>
+	 <phase duration="2" state="rrrrruuuuuurrrrrruuuuu"/>
+	 <phase duration="17" state="rrrrrGGGGGgrrrrrrGGGGg"/>
+	 <phase duration="2" state="rrrrryyyyyyrrrrrryyyyy"/>
+	</tlLogic>
+	<tlLogic id="KP1" type="static" programID="Spat" offset="0">
+	 <phase duration="1" state="rrrrrrrrrrrrrrrrrrrrrr"/>
+	 <phase duration="2" state="rrrrruuuuuurrrrrruuuuu"/>
+	 <phase duration="17" state="rrrrrGGGGGgrrrrrrGGGGg"/>
+	 <phase duration="3" state="rrrrryyyyyyrrrrrryyyyy"/>
+	 <phase duration="7" state="rrrrrrrrrrrrrrrrrrrrrr"/>
+	 <phase duration="2" state="uuuuurrrrrruuuuuurrrrr"/>
+	 <phase duration="42" state="GGGGgrrrrrrGGGGGgrrrrr"/>
+	 <phase duration="3" state="GGGGgrrrrrryyyyyyrrrrr"/>
+	 <phase duration="3" state="GGGGgrrrrrrrrrrrrrrrrr"/>
+	 <phase duration="3" state="yyyyyrrrrrrrrrrrrrrrrr"/>
+	 <phase duration="7" state="rrrrrrrrrrrrrrrrrrrrrr"/>
+	</tlLogic>
+	<tlLogic id="KP1" type="static" programID="Tag" offset="0">
+	 <phase duration="7" state="rrrrrrrrrrrrrrrrrrrrrr"/>
+	 <phase duration="2" state="rrrrruuuuuurrrrrruuuuu"/>
+	 <phase duration="17" state="rrrrrGGGGGgrrrrrrGGGGg"/>
+	 <phase duration="3" state="rrrrryyyyyyrrrrrryyyyy"/>
+	 <phase duration="7" state="rrrrrrrrrrrrrrrrrrrrrr"/>
+	 <phase duration="2" state="uuuuurrrrrruuuuuurrrrr"/>
+	 <phase duration="42" state="GGGGgrrrrrrGGGGGgrrrrr"/>
+	 <phase duration="3" state="GGGGgrrrrrryyyyyyrrrrr"/>
+	 <phase duration="3" state="GGGGgrrrrrrrrrrrrrrrrr"/>
+	 <phase duration="3" state="yyyyyrrrrrrrrrrrrrrrrr"/>
+	 <phase duration="1" state="rrrrrrrrrrrrrrrrrrrrrr"/>
+	</tlLogic>
+	<tlLogic id="KP2" type="static" programID="Fruh" offset="0">
+	 <phase duration="30" state="GGGrrrrGGGGGgrrr"/>
+	 <phase duration="3" state="yyyrrrrGGGGGgrrr"/>
+	 <phase duration="3" state="rrrrrrrGGGGGgrrr"/>
+	 <phase duration="3" state="rrrrrrryyyyyyrrr"/>
+	 <phase duration="5" state="rrrrrrrrrrrrrrrr"/>
+	 <phase duration="2" state="rrruuuurrrrrruuu"/>
+	 <phase duration="18" state="rrrGGGgrrrrrrGGg"/>
+	 <phase duration="3" state="rrryyyyrrrrrryyy"/>
+	 <phase duration="6" state="rrrrrrrrrrrrrrrr"/>
+	 <phase duration="2" state="uuurrrruuuuuurrr"/>
+	 <phase duration="15" state="GGGrrrrGGGGGgrrr"/>
+	</tlLogic>
+	<tlLogic id="KP2" type="static" programID="Spat" offset="0">
+	 <phase duration="16" state="GGGrrrrGGGGGgrrr"/>
+	 <phase duration="3" state="yyyrrrrGGGGGgrrr"/>
+	 <phase duration="3" state="rrrrrrryyyyyyrrr"/>
+	 <phase duration="5" state="rrrrrrrrrrrrrrrr"/>
+	 <phase duration="2" state="rrruuuurrrrrruuu"/>
+	 <phase duration="18" state="rrrGGGgrrrrrrGGg"/>
+	 <phase duration="3" state="rrryyyyrrrrrryyy"/>
+	 <phase duration="6" state="rrrrrrrrrrrrrrrr"/>
+	 <phase duration="2" state="uuurrrruuuuuurrr"/>
+	 <phase duration="32" state="GGGrrrrGGGGGgrrr"/>
+	</tlLogic>
+	<tlLogic id="KP2" type="static" programID="Tag" offset="0">
+	 <phase duration="38" state="GGGrrrrGGGGGgrrr"/>
+	 <phase duration="3" state="yyyrrrrGGGGGgrrr"/>
+	 <phase duration="3" state="rrrrrrryyyyyyrrr"/>
+	 <phase duration="5" state="rrrrrrrrrrrrrrrr"/>
+	 <phase duration="2" state="rrruuuurrrrrruuu"/>
+	 <phase duration="18" state="rrrGGGgrrrrrrGGg"/>
+	 <phase duration="3" state="rrryyyyrrrrrryyy"/>
+	 <phase duration="6" state="rrrrrrrrrrrrrrrr"/>
+	 <phase duration="2" state="uuurrrruuuuuurrr"/>
+	 <phase duration="10" state="GGGrrrrGGGGGgrrr"/>
+	</tlLogic>
+	<tlLogic id="KP3" type="static" programID="Fruh" offset="0">
+	 <phase duration="27" state="GGGgrrrGGGgrrr"/>
+	 <phase duration="3" state="GGGgrrryyyyrrr"/>
+	 <phase duration="5" state="GGGgrrrrrrrrrr"/>
+	 <phase duration="3" state="yyyyrrrrrrrrrr"/>
+	 <phase duration="7" state="rrrrrrrrrrrrrr"/>
+	 <phase duration="2" state="rrrruuurrrruuu"/>
+	 <phase duration="15" state="rrrrGGgrrrrGGg"/>
+	 <phase duration="3" state="rrrryyyrrrrGGg"/>
+	 <phase duration="2" state="rrrrrrrrrrrGGg"/>
+	 <phase duration="3" state="rrrrrrrrrrryyy"/>
+	 <phase duration="5" state="rrrrrrrrrrrrrr"/>
+	 <phase duration="2" state="uuuurrruuuurrr"/>
+	 <phase duration="13" state="GGGgrrrGGGgrrr"/>
+	</tlLogic>
+	<tlLogic id="KP3" type="static" programID="Spat" offset="0">
+	 <phase duration="17" state="GGGgrrrGGGgrrr"/>
+	 <phase duration="3" state="yyyyrrryyyyrrr"/>
+	 <phase duration="7" state="rrrrrrrrrrrrrr"/>
+	 <phase duration="2" state="rrrruuurrrruuu"/>
+	 <phase duration="19" state="rrrrGGgrrrrGGg"/>
+	 <phase duration="3" state="rrrryyyrrrryyy"/>
+	 <phase duration="5" state="rrrrrrrrrrrrrr"/>
+	 <phase duration="2" state="uuuurrruuuurrr"/>
+	 <phase duration="32" state="GGGgrrrGGGgrrr"/>
+	</tlLogic>
+	<tlLogic id="KP3" type="static" programID="Tag" offset="0">
+	 <phase duration="43" state="GGGgrrrGGGgrrr"/>
+	 <phase duration="3" state="yyyyrrryyyyrrr"/>
+	 <phase duration="7" state="rrrrrrrrrrrrrr"/>
+	 <phase duration="2" state="rrrruuurrrruuu"/>
+	 <phase duration="19" state="rrrrGGgrrrrGGg"/>
+	 <phase duration="3" state="rrrryyyrrrryyy"/>
+	 <phase duration="5" state="rrrrrrrrrrrrrr"/>
+	 <phase duration="2" state="uuuurrruuuurrr"/>
+	 <phase duration="6" state="GGGgrrrGGGgrrr"/>
+	</tlLogic>
+	<tlLogic id="KP4" type="static" programID="Fruh" offset="0">
+	 <phase duration="22" state="GGGgrrrGGGgrrr"/>
+	 <phase duration="3" state="yyyyrrrGGGgrrr"/>
+	 <phase duration="4" state="rrrrrrrGGGgrrr"/>
+	 <phase duration="3" state="rrrrrrryyyyrrr"/>
+	 <phase duration="5" state="rrrrrrrrrrrrrr"/>
+	 <phase duration="2" state="rrrruuurrrruuu"/>
+	 <phase duration="15" state="rrrrGGgrrrrGGg"/>
+	 <phase duration="3" state="rrrryyyrrrryyy"/>
+	 <phase duration="6" state="rrrrrrrrrrrrrr"/>
+	 <phase duration="2" state="uuuurrrrrrrrrr"/>
+	 <phase duration="2" state="GGGgrrrrrrrrrr"/>
+	 <phase duration="2" state="GGGgrrruuuurrr"/>
+	 <phase duration="21" state="GGGgrrrGGGgrrr"/>
+	</tlLogic>
+	<tlLogic id="KP4" type="static" programID="Spat" offset="0">
+	 <phase duration="16" state="GGGgrrrGGGgrrr"/>
+	 <phase duration="3" state="yyyyrrrGGGgrrr"/>
+	 <phase duration="3" state="rrrrrrrGGGgrrr"/>
+	 <phase duration="3" state="rrrrrrryyyyrrr"/>
+	 <phase duration="5" state="rrrrrrrrrrrrrr"/>
+	 <phase duration="2" state="rrrruuurrrruuu"/>
+	 <phase duration="15" state="rrrrGGgrrrrGGg"/>
+	 <phase duration="3" state="rrrryyyrrrryyy"/>
+	 <phase duration="6" state="rrrrrrrrrrrrrr"/>
+	 <phase duration="2" state="uuuurrruuuurrr"/>
+	 <phase duration="32" state="GGGgrrrGGGgrrr"/>
+	</tlLogic>
+	<tlLogic id="KP4" type="static" programID="Tag" offset="0">
+	 <phase duration="2" state="rrrrrrrrrrrrrr"/>
+	 <phase duration="2" state="uuuurrruuuurrr"/>
+	 <phase duration="48" state="GGGgrrrGGGgrrr"/>
+	 <phase duration="3" state="yyyyrrrGGGgrrr"/>
+	 <phase duration="3" state="rrrrrrrGGGgrrr"/>
+	 <phase duration="3" state="rrrrrrryyyyrrr"/>
+	 <phase duration="5" state="rrrrrrrrrrrrrr"/>
+	 <phase duration="2" state="rrrruuurrrruuu"/>
+	 <phase duration="15" state="rrrrGGgrrrrGGg"/>
+	 <phase duration="3" state="rrrryyyrrrryyy"/>
+	 <phase duration="4" state="rrrrrrrrrrrrrr"/>
+	</tlLogic>
+	<tlLogic id="KP5" type="static" programID="Fruh" offset="0">
+	 <phase duration="8" state="GGGGGGGgrrr"/>
+	 <phase duration="3" state="yyyyGGGgrrr"/>
+	 <phase duration="8" state="rrrrGGGgrrr"/>
+	 <phase duration="3" state="rrrryyyyrrr"/>
+	 <phase duration="5" state="rrrrrrrrrrr"/>
+	 <phase duration="3" state="rrrrrrrruuu"/>
+	 <phase duration="14" state="rrrrrrrrGGG"/>
+	 <phase duration="3" state="rrrrrrrryyy"/>
+	 <phase duration="3" state="rrrrrrrrrrr"/>
+	 <phase duration="2" state="uuuurrrrrrr"/>
+	 <phase duration="8" state="GGGGrrrrrrr"/>
+	 <phase duration="2" state="GGGGuuuurrr"/>
+	 <phase duration="28" state="GGGGGGGgrrr"/>
+	</tlLogic>
+	<tlLogic id="KP5" type="static" programID="Spat" offset="0">
+	 <phase duration="19" state="GGGGGGGgrrr"/>
+	 <phase duration="3" state="yyyyGGGgrrr"/>
+	 <phase duration="9" state="rrrrGGGgrrr"/>
+	 <phase duration="3" state="rrrryyyyrrr"/>
+	 <phase duration="5" state="rrrrrrrrrrr"/>
+	 <phase duration="3" state="rrrrrrrruuu"/>
+	 <phase duration="14" state="rrrrrrrrGGG"/>
+	 <phase duration="3" state="rrrrrrrryyy"/>
+	 <phase duration="5" state="rrrrrrrrrrr"/>
+	 <phase duration="2" state="uuuuuuuurrr"/>
+	 <phase duration="24" state="GGGGGGGgrrr"/>
+	</tlLogic>
+	<tlLogic id="KP5" type="static" programID="Tag" offset="0">
+	 <phase duration="2" state="GGGGuuuurrr"/>
+	 <phase duration="39" state="GGGGGGGgrrr"/>
+	 <phase duration="3" state="yyyyGGGgrrr"/>
+	 <phase duration="12" state="rrrrGGGgrrr"/>
+	 <phase duration="3" state="rrrryyyyrrr"/>
+	 <phase duration="6" state="rrrrrrrrrrr"/>
+	 <phase duration="2" state="rrrrrrrruuu"/>
+	 <phase duration="14" state="rrrrrrrrGGG"/>
+	 <phase duration="3" state="rrrrrrrryyy"/>
+	 <phase duration="3" state="rrrrrrrrrrr"/>
+	 <phase duration="2" state="uuuurrrrrrr"/>
+	 <phase duration="1" state="GGGGrrrrrrr"/>
+	</tlLogic>
+	<tlLogic id="KP7" type="static" programID="Fruh" offset="0">
+	 <phase duration="8" state="GGGGGGGrGGrrrrrr"/>
+	 <phase duration="3" state="GGGGyyGrGGrrrrrr"/>
+	 <phase duration="4" state="GGGGrrGrGGrrrrrr"/>
+	 <phase duration="3" state="GGGGrryryyrrrrrr"/>
+	 <phase duration="1" state="GGGGrrrrrrrrrrrr"/>
+	 <phase duration="1" state="GGGGrrrrrrruuuuu"/>
+	 <phase duration="24" state="GGGGrrrrrrrGGGGG"/>
+	 <phase duration="3" state="yyyyrrrrrrrGGGGG"/>
+	 <phase duration="1" state="rrrrrrrrrrrGGGGG"/>
+	 <phase duration="3" state="rrrrrrrrrrryyyyy"/>
+	 <phase duration="2" state="rrrrrrrrrrrrrrrr"/>
+	 <phase duration="1" state="rrrrrrrrrrurrrrr"/>
+	 <phase duration="1" state="rrrrrrrrrrGrrrrr"/>
+	 <phase duration="1" state="rrrrrrrurrGrrrrr"/>
+	 <phase duration="5" state="rrrrrrrGrrGrrrrr"/>
+	 <phase duration="2" state="rrrrrrryrrGrrrrr"/>
+	 <phase duration="1" state="rrrrrrryrryrrrrr"/>
+	 <phase duration="2" state="rrrrrrrrrryrrrrr"/>
+	 <phase duration="4" state="rrrrrrrrrrrrrrrr"/>
+	 <phase duration="1" state="rrrruurrrrrrrrrr"/>
+	 <phase duration="5" state="rrrrGGrrrrrrrrrr"/>
+	 <phase duration="1" state="rrrrGGurrrrrrrrr"/>
+	 <phase duration="1" state="rrrrGGGruurrrrrr"/>
+	 <phase duration="10" state="rrrrGGGrGGrrrrrr"/>
+	 <phase duration="1" state="uuuuGGGrGGrrrrrr"/>
+	 <phase duration="1" state="GGGGGGGrGGrrrrrr"/>
+	</tlLogic>
+	<tlLogic id="KP7" type="static" programID="Spat" offset="0">
+	 <phase duration="4" state="rrrrrrrrrrrrrrrr"/>
+	 <phase duration="1" state="rrrruurrrrrrrrrr"/>
+	 <phase duration="5" state="rrrrGGrrrrrrrrrr"/>
+	 <phase duration="1" state="rrrrGGurrrrrrrrr"/>
+	 <phase duration="1" state="rrrrGGGruurrrrrr"/>
+	 <phase duration="4" state="rrrrGGGrGGrrrrrr"/>
+	 <phase duration="1" state="uuuuGGGrGGrrrrrr"/>
+	 <phase duration="10" state="GGGGGGGrGGrrrrrr"/>
+	 <phase duration="3" state="GGGGyyGrGGrrrrrr"/>
+	 <phase duration="4" state="GGGGrrGrGGrrrrrr"/>
+	 <phase duration="1" state="GGGGrrGryyrrrrrr"/>
+	 <phase duration="2" state="GGGGrryryyrrrrrr"/>
+	 <phase duration="1" state="GGGGrryrrrrrrrrr"/>
+	 <phase duration="1" state="GGGGrrrrrrruuuuu"/>
+	 <phase duration="29" state="GGGGrrrrrrrGGGGG"/>
+	 <phase duration="3" state="yyyyrrrrrrrGGGGG"/>
+	 <phase duration="1" state="rrrrrrrrrrrGGGGG"/>
+	 <phase duration="3" state="rrrrrrrrrrryyyyy"/>
+	 <phase duration="2" state="rrrrrrrrrrrrrrrr"/>
+	 <phase duration="1" state="rrrrrrrrrrurrrrr"/>
+	 <phase duration="1" state="rrrrrrrrrrGrrrrr"/>
+	 <phase duration="1" state="rrrrrrrurrGrrrrr"/>
+	 <phase duration="5" state="rrrrrrrGrrGrrrrr"/>
+	 <phase duration="2" state="rrrrrrryrrGrrrrr"/>
+	 <phase duration="1" state="rrrrrrryrryrrrrr"/>
+	 <phase duration="2" state="rrrrrrrrrryrrrrr"/>
+	</tlLogic>
+	<tlLogic id="KP7" type="static" programID="Tag" offset="0">
+	 <phase duration="2" state="rrrrrrryrrGrrrrr"/>
+	 <phase duration="1" state="rrrrrrryrryrrrrr"/>
+	 <phase duration="2" state="rrrrrrrrrryrrrrr"/>
+	 <phase duration="4" state="rrrrrrrrrrrrrrrr"/>
+	 <phase duration="1" state="rrrruurrrrrrrrrr"/>
+	 <phase duration="4" state="rrrrGGrrrrrrrrrr"/>
+	 <phase duration="1" state="rrrrGGurrrrrrrrr"/>
+	 <phase duration="1" state="rrrrGGGruurrrrrr"/>
+	 <phase duration="7" state="rrrrGGGrGGrrrrrr"/>
+	 <phase duration="1" state="uuuuGGGrGGrrrrrr"/>
+	 <phase duration="6" state="GGGGGGGrGGrrrrrr"/>
+	 <phase duration="3" state="GGGGyyGrGGrrrrrr"/>
+	 <phase duration="4" state="GGGGrrGrGGrrrrrr"/>
+	 <phase duration="3" state="GGGGrryryyrrrrrr"/>
+	 <phase duration="1" state="GGGGrrrrrrrrrrrr"/>
+	 <phase duration="1" state="GGGGrrrrrrruuuuu"/>
+	 <phase duration="31" state="GGGGrrrrrrrGGGGG"/>
+	 <phase duration="3" state="yyyyrrrrrrrGGGGG"/>
+	 <phase duration="1" state="rrrrrrrrrrrGGGGG"/>
+	 <phase duration="3" state="rrrrrrrrrrryyyyy"/>
+	 <phase duration="2" state="rrrrrrrrrrrrrrrr"/>
+	 <phase duration="1" state="rrrrrrrrrrurrrrr"/>
+	 <phase duration="1" state="rrrrrrrrrrGrrrrr"/>
+	 <phase duration="1" state="rrrrrrrurrGrrrrr"/>
+	 <phase duration="5" state="rrrrrrrGrrGrrrrr"/>
+	</tlLogic>
+
+	<WAUT startProg="Spat" refTime="0" id="waut">
+	</WAUT>
+	<wautJunction junctionID="KP1" wautID="waut"></wautJunction>
+	<wautJunction junctionID="KP2" wautID="waut"></wautJunction>
+	<wautJunction junctionID="KP3" wautID="waut"></wautJunction>
+	<wautJunction junctionID="KP4" wautID="waut"></wautJunction>
+	<wautJunction junctionID="KP5" wautID="waut"></wautJunction>
+	<wautJunction junctionID="KP7" wautID="waut"></wautJunction>
+</additional>

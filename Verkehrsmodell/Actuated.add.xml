@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+   	<tlLogic id="KP1" type="actuated" programID="delay_based" offset="0">
+	 <param key="detectorRange" value="100" />
+	 <param key="minTimeLoss" value="1" />
+	 <param key="file" value="NULL"/>
+	 <param key="freq" value="300"/>
+	 <param key="show-detectors" value="true"/>
+	 <phase duration="1" state="rrrrruuuuuurrrrrruuuuu"/>
+	 <phase duration="17" minDur="15" maxDur="30" state="rrrrrGGGGGgrrrrrrGGGGg"/>
+	 <phase duration="3" state="rrrrryyyyyyrrrrrryyyyy"/>
+	 <phase duration="7" state="rrrrrrrrrrrrrrrrrrrrrr"/>
+	 <phase duration="2" state="uuuuurrrrrruuuuuurrrrr"/>
+	 <phase duration="36" minDur="5" maxDur="60" state="GGGGgrrrrrrGGGGGgrrrrr"/>
+	 <phase duration="3" state="GGGGgrrrrrryyyyyyrrrrr"/>
+	 <phase duration="8" state="GGGGgrrrrrrrrrrrrrrrrr"/>
+	 <phase duration="3" state="yyyyyrrrrrrrrrrrrrrrrr"/>
+	 <phase duration="9" state="rrrrrrrrrrrrrrrrrrrrrr"/>
+	 <phase duration="1" state="rrrrruuuuuurrrrrruuuuu"/>
+	</tlLogic>
+	<tlLogic id="KP2" type="actuated" programID="delay_based" offset="0">
+	 <param key="detectorRange" value="100" />
+	 <param key="minTimeLoss" value="1" />
+	 <param key="file" value="NULL"/>
+	 <param key="freq" value="300"/>
+	 <param key="show-detectors" value="true"/>
+	 <phase duration="15" minDur="5" maxDur="25" state="rrrGGGgrrrrrrGGg"/>
+	 <phase duration="3" state="rrryyyyrrrrrryyy"/>
+	 <phase duration="6" state="rrrrrrrrrrrrrrrr"/>
+	 <phase duration="2" state="uuurrrruuuuuurrr"/>
+	 <phase duration="45" minDur="5" maxDur="60" state="GGGrrrrGGGGGgrrr"/>
+	 <phase duration="3" state="yyyrrrrGGGGGgrrr"/>
+	 <phase duration="3" state="rrrrrrrGGGGGgrrr"/>
+	 <phase duration="3" state="rrrrrrryyyyyyrrr"/>
+	 <phase duration="5" state="rrrrrrrrrrrrrrrr"/>
+	 <phase duration="2" state="rrruuuurrrrrruuu"/>
+	 <phase duration="3" state="rrrGGGgrrrrrrGGg"/>
+	</tlLogic>
+	<tlLogic id="KP3" type="actuated" programID="delay_based" offset="0">
+	 <param key="detectorRange" value="100" />
+	 <param key="minTimeLoss" value="1" />
+	 <param key="file" value="NULL"/>
+	 <param key="freq" value="300"/>
+	 <param key="show-detectors" value="true"/>
+	 <phase duration="8" minDur="1" maxDur="18" state="rrrrGGgrrrrGGg"/>
+	 <phase duration="3" state="rrrryyyrrrrGGg"/>
+	 <phase duration="2" state="rrrrrrrrrrrGGg"/>
+	 <phase duration="3" state="rrrrrrrrrrryyy"/>
+	 <phase duration="5" state="rrrrrrrrrrrrrr"/>
+	 <phase duration="2" state="uuuurrruuuurrr"/>
+	 <phase duration="40" minDur="5" maxDur="60" state="GGGgrrrGGGgrrr"/>
+	 <phase duration="3" state="GGGgrrryyyyrrr"/>
+	 <phase duration="5" state="GGGgrrrrrrrrrr"/>
+	 <phase duration="3" state="yyyyrrrrrrrrrr"/>
+	 <phase duration="7" state="rrrrrrrrrrrrrr"/>
+	 <phase duration="2" state="rrrruuurrrruuu"/>
+	 <phase duration="7" minDur="4" maxDur="7" state="rrrrGGgrrrrGGg"/>
+	</tlLogic>
+	<tlLogic id="KP4" type="actuated" programID="delay_based" offset="0">
+	 <param key="detectorRange" value="100" />
+	 <param key="minTimeLoss" value="1" />
+	 <param key="file" value="NULL"/>
+	 <param key="freq" value="300"/>
+	 <param key="show-detectors" value="true"/>
+	 <phase duration="10" minDur="1" maxDur="15" state="rrrrGGgrrrrGGg"/>
+	 <phase duration="3" state="rrrryyyrrrryyy"/>
+	 <phase duration="6" state="rrrrrrrrrrrrrr"/>
+	 <phase duration="2" state="uuuurrruuuurrr"/>
+	 <phase duration="47" minDur="5" maxDur="60" state="GGGgrrrGGGgrrr"/>
+	 <phase duration="3" state="yyyyrrrGGGgrrr"/>
+	 <phase duration="4" state="rrrrrrrGGGgrrr"/>
+	 <phase duration="3" state="rrrrrrryyyyrrr"/>
+	 <phase duration="5" state="rrrrrrrrrrrrrr"/>
+	 <phase duration="2" state="rrrruuurrrruuu"/>
+	 <phase duration="5" state="rrrrGGgrrrrGGg"/>
+	</tlLogic>
+	<tlLogic id="KP5" type="actuated" programID="delay_based" offset="0">
+	 <param key="detectorRange" value="100" />
+	 <param key="minTimeLoss" value="1" />
+	 <param key="file" value="NULL"/>
+	 <param key="freq" value="300"/>
+	 <param key="show-detectors" value="true"/>
+	 <phase duration="11" minDur="5" maxDur="25" state="rrrrrrrrGGG"/>
+	 <phase duration="3" state="rrrrrrrryyy"/>
+	 <phase duration="3" state="rrrrrrrrrrr"/>
+	 <phase duration="2" state="uuuurrrrrrr"/>
+	 <phase duration="2" state="GGGGuuuurrr"/>
+	 <phase duration="44" minDur="5" maxDur="60" state="GGGGGGGgrrr"/>
+	 <phase duration="3" state="yyyyGGGgrrr"/>
+	 <phase duration="8" state="rrrrGGGgrrr"/>
+	 <phase duration="3" state="rrrryyyyrrr"/>
+	 <phase duration="5" state="rrrrrrrrrrr"/>
+	 <phase duration="3" state="rrrrrrrruuu"/>
+	 <phase duration="3" state="rrrrrrrrGGG"/>
+	</tlLogic>
+	<tlLogic id="KP7" type="actuated" programID="delay_based" offset="0">
+	 <param key="detectorRange" value="100" />
+	 <param key="minTimeLoss" value="1" />
+	 <param key="file" value="NULL"/>
+	 <param key="freq" value="300"/>
+	 <param key="show-detectors" value="true"/>
+	 <phase duration="8" minDur="5" maxDur="25" state="GGGGGGGrGGrrrrrr"/>
+	 <phase duration="3" state="GGGGyyGrGGrrrrrr"/>
+	 <phase duration="4" state="GGGGrrGrGGrrrrrr"/>
+	 <phase duration="3" state="GGGGrryryyrrrrrr"/>
+	 <phase duration="1" state="GGGGrrrrrrrrrrrr"/>
+	 <phase duration="1" state="GGGGrrrrrrruuuuu"/>
+	 <phase duration="24" minDur="5" maxDur="60" state="GGGGrrrrrrrGGGGG"/>
+	 <phase duration="3" state="yyyyrrrrrrrGGGGG"/>
+	 <phase duration="1" state="rrrrrrrrrrrGGGGG"/>
+	 <phase duration="3" state="rrrrrrrrrrryyyyy"/>
+	 <phase duration="2" state="rrrrrrrrrrrrrrrr"/>
+	 <phase duration="1" state="rrrrrrrrrrurrrrr"/>
+	 <phase duration="1" state="rrrrrrrrrrGrrrrr"/>
+	 <phase duration="1" state="rrrrrrrurrGrrrrr"/>
+	 <phase duration="5" minDur="1" maxDur="5" state="rrrrrrrGrrGrrrrr"/>
+	 <phase duration="2" state="rrrrrrryrrGrrrrr"/>
+	 <phase duration="1" state="rrrrrrryrryrrrrr"/>
+	 <phase duration="2" state="rrrrrrrrrryrrrrr"/>
+	 <phase duration="4" state="rrrrrrrrrrrrrrrr"/>
+	 <phase duration="1" state="rrrruurrrrrrrrrr"/>
+	 <phase duration="5" state="rrrrGGrrrrrrrrrr"/>
+	 <phase duration="1" state="rrrrGGurrrrrrrrr"/>
+	 <phase duration="1" state="rrrrGGGruurrrrrr"/>
+	 <phase duration="10" state="rrrrGGGrGGrrrrrr"/>
+	 <phase duration="1" state="uuuuGGGrGGrrrrrr"/>
+	 <phase duration="1" state="GGGGGGGrGGrrrrrr"/>
+	</tlLogic>
+</additional>

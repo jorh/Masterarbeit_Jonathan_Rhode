@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 01/07/20 15:17:25 by Eclipse SUMO jtrrouter Version 1.4.0
+-->
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/jtrrouterConfiguration.xsd">
+
+    <input>
+        <net-file value="Netz_V11.net.xml"/>
+        <route-files value="flows_cars.xml"/>
+        <turn-ratio-files value="definition_cars.turns.xml"/>
+    </input>
+
+    <output>
+        <output-file value="routes_cars.rou.xml"/>
+    </output>
+
+    <processing>
+        <unsorted-input value="true"/>
+        <route-steps value="100000"/>
+        <remove-loops value="true"/>
+        <repair value="true"/>
+        <max-edges-factor value="0.25"/>
+		<bulk-routing />
+    </processing>
+
+    <defaults>
+        <departlane value="best"/>
+    </defaults>
+
+    <time>
+        <begin value="0"/>
+        <end value="100000"/>
+    </time>
+
+</configuration>
